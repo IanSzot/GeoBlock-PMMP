@@ -1,0 +1,23 @@
+# Message for kicked player
+kickMsg: Sorry, players from your country are not allowed on this server.
+
+# Can be "deny" or "allow". 
+# allow = only players from "countries" will be able to join
+# deny = every player will join except players from "countries"
+action: deny
+
+# Countries to allow/deny. Please use UPPERCASE separated by commas and use ISO 3166-1 alpha-2 codes
+# Example: [BR, US, NZ, CN]
+# Example: [US]
+countries: [BR, US]
+
+# What happens if all APIs fail to return a valid country code?
+# IMPORTANT: Please note that if the APIs are failing because that you somehow exceeeded all of their limits
+# or got your IP blocked then this option will reflect on ALL of your players trying to join.
+#
+# allow = players with invalid country code will be able to join the server
+# deny = players with invalid country code WILL NOT be able to join the server
+fail: allow
+
+# Message to players kicked because of API fail
+failMsg: Sorry, we could not confirm your country of origin

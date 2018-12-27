@@ -1,0 +1,8 @@
+name: GeoBlock
+main: IanSzot\GeoBlock\GeoBlock
+author: IanSzot
+version: 0.1
+api: 3.0.0
+
+description: Block or allow players from certain countries
+website: https://ianszot.com
