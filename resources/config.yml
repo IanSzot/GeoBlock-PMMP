@@ -9,7 +9,7 @@ action: deny
 # Countries to allow/deny. Please use UPPERCASE separated by commas and use ISO 3166-1 alpha-2 codes
 # Example: [BR, US, NZ, CN]
 # Example: [US]
-countries: [BR, US]
+countries: []
 
 # What happens if all APIs fail to return a valid country code?
 # IMPORTANT: Please note that if the APIs are failing because that you somehow exceeeded all of their limits

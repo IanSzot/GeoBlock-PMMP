@@ -1,8 +1,8 @@
 name: GeoBlock
 main: IanSzot\GeoBlock\GeoBlock
 author: IanSzot
-version: 0.1
+version: 1.0-beta
 api: 3.0.0
 
 description: Block or allow players from certain countries
-website: https://ianszot.com
+website: https://github.com/IanSzot/GeoBlock-PMMP
